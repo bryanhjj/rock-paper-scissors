@@ -10,11 +10,6 @@ function computerPlay() {
     }
 }
 
-// testing computerPlay() function
-// console.log(computerPlay());
-// console.log(computerPlay());
-// console.log(computerPlay());
-
 // a function that plays a single round of rock paper scissors
 function playRound(playerSelection, computerSelection) {
     if (playerSelection == "rock" && computerSelection == "rock") {
@@ -46,11 +41,6 @@ function playRound(playerSelection, computerSelection) {
         return false;
     }
 }
-
-// for testing the playRound function
-// let playerSelection = "scissors";
-// let computerSelection = "paper";
-// console.log(playRound(playerSelection, computerSelection));
 
 // using the previous functions to play 5 rounds of rock paper scissors
 function game() {
